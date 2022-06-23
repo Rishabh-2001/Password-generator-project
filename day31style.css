@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 73, 162);
+    color: white;
+}
+.heading{
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: .5em;
+
+
+}
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(30, 30, 98);
+    padding: 1.4em 1em;
+    border-radius: 6px
+}
+.area{
+    width: 100%;
+    background-color: rgb(18, 18, 65);
+    margin-bottom: 12px;
+    /* padding: 8px 18px; */
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.area svg{
+    width: 50px;
+    cursor: pointer;
+    color: white;
+    padding: .8em;
+    background-color: rgb(65, 81, 133);
+    outline: none;
+    border: 0;
+    vertical-align: middle; 
+    transition: all .3s ease-in;
+   
+}
+.center{
+    padding: 1em;
+}
+.area svg:active{
+   transform: scale(.98);
+}
+.constraint{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .3em 0 ;
+    font-size: .9rem;
+}
+.submit{
+    margin-top: .3em;
+    width: 100%;
+    text-align: center;
+    padding: .5em 1.2em;
+    background-color: rgb(66, 102, 201);
+    border: 0;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.submit:active{
+    transform: scale(.98);
+}
+
+.num{
+    width: 50px;
+    font-size: 1rem;
+    padding: .1em .2em;
+    outline: none;
+    border: 0;
+}
+.num:active{
+    outline: none;
+}
